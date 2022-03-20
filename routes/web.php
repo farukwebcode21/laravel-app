@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DemoController;
 use App\Http\Controllers\SingleActionController;
+use App\Http\Controllers\RegistationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -73,13 +74,31 @@ Route::get('/user', [DemoController::class, 'user']);
 
 Route::get('/course', SingleActionController::class);
 
+// <---------------------Controller Learning End --------------------------->
+// <----------------------Form Handaling Learning Start ---------------------->
+Route::get('/register',[RegistationController::class, 'index']);
+Route::post('/register',[RegistationController::class, 'register']);
 
-// <------------------------Controller Learning End --------------------------->
+// <------------------------Form Handaling Learning End--------------------------->
 
-// <------------------------blade Learning Start ------------------------->
+// <------------------------Form Handaling Learning Start ------------------------->
 
 
-// <------------------------blade Learning End --------------------------->
+// <------------------------Form Handaling Learning End--------------------------->
+
+
+
+// <------------------------Form Handaling Learning Start ------------------------->
+
+
+// <------------------------Form Handaling Learning End--------------------------->
+
+
+
+// <------------------------Form Handaling Learning Start ------------------------->
+
+
+// <------------------------Form Handaling Learning End--------------------------->
 
 
 
