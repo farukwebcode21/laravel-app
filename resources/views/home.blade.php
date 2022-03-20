@@ -11,9 +11,16 @@
   <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center">
+            {{-- <div class="col-sm-12 text-center">
                 <h1>Welcome To Laravel Journay</h1>
-            </div>
+                <p>Today is : {{date('d-m-y')}}</p>
+                <h2>{{$name}}</h2>
+                {!!$demo!!}
+            </div> --}}
+
+            {{-- Home controller use here --}}
+
+            <h1>This is Home Controller</h1>
         </div>
     </div>
 

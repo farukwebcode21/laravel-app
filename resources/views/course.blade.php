@@ -12,10 +12,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                {{-- <h1>Welcome To New User :{{$name?? ""}}</h1> --}}
-
-                {{-- DemoController Example here --}}
-                <h1>This user content controller system call user</h1>
+                <h1>This is Single Action Controller </h1>
+                <h1>Course Description</h1>
             </div>
         </div>
     </div>
